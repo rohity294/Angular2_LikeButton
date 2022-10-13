@@ -1,0 +1,6 @@
+<h1>Angular Like Button Demo</h1>
+<br><br>
+<!-- <button [style.backgroundColor]="'yellow'" (click)="processLikeButtonClick()">Like|{{likeValue}}</button> -->
+<!-- <button [style.backgroundColor]="isLiked?'green':'red'" (click)="processLikeButtonClick()">Like|{{likeValue}}</button>-->
+<button [style.backgroundColor]="isLiked?'green':'red'" (click)="processLikeButtonClick()">Like|{{likeValue}}</button>
+<div [hidden]="!isLiked"><img src="assets/LikeThumsUp.png" /></div>

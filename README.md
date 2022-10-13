@@ -1,3 +1,2 @@
-# Angular-1-AngularCounter
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-afidpp)
+# Angular2_LikeButton
+Angular2 Like Button
